@@ -29,6 +29,9 @@ First you'll need to Authorize a Dev Hub. A Dev Hub allows you to create scratch
 * Click Allow.
 * After you authenticate in the browser, the CLI remembers your Dev Hub credentials and you should a success message in the Output window in VS Code
 
+### Enable Developer Hub (Dev Hub)
+From Setup, enter `dev` in the Quick Find box, then click **Dev Hub**. Ensure that **Enable Dev Hub** and **Enable Unlocked Packages** are enabled.
+
 ### Create a Default Scratch Org
 A scratch org is an ephemeral salesforce instance that only lasts for 7 to 30 days (based on your settings) that is source control driven, meaning the only things that exist in it are the basic out of Salesforce features and anything you have in version control.
 
