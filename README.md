@@ -49,8 +49,7 @@ Now you need to push your source code to org.
 * This is the same command you'll use to push any changes you make your source code. This command does a diff and only pushes code that has actually changed, so subsequent pushes will be faster than the initial one.
 
 ### Add Test Data
-Add some test data to your org. Run this command from the base folder of your project. It will run a script that inserts data into your scratch org.
-`sfdx force:apex:execute -f seed.apex`
+Add some test data to your org. Run `sfdx force:apex:execute -f seed.apex` from the base folder of your project. It will run a script that inserts data into your scratch org.
 
 ### Check Out Your Org in your Browser
 * In Visual Studio Code, press Command + Shift + P on macOS or Ctrl + Shift + P on Windows or Linux.
